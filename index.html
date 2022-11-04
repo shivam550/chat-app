@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <title>Simple Chat app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="title">
+        <nav class="navbar">
+            <ul class="nav-ul">
+                <a class="anchor" href="#title">
+                    <li>Home</li>
+                </a>
+                <a class="anchor" href="#chat_section">
+                    <li>Chat</li>
+                </a>
+                <a class="anchor" href="#about">
+                    <li>About</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="hero_section" id="title">
+            <div class="img-content">
+                <img class="hero-img " src="/Texting-pana.png">
+            </div>
+            <div class="hero-right">
+                <div class="hero-content">
+                    <h1 class="hero-head">A Toy Chat App</h1>
+                    <p class="hero-para"> Own Your conversation,</p>
+                    <p class="hero-para">With Free and Open Source Web App</p>
+                    <div class="btn-hero">
+                        <a href="https://opensource.guide/how-to-contribute/"><button class="know-more">Know
+                                More</button></a>
+                        <a href="mailto: shivamsingh51609@gmail.com"><button class="know-more">Contact</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <main>
+        <section class="chat_section" id="chat_section">
+            <div class="brand">
+                <img src="/wassup.png" height="35px">
+                <h1>Wassup</h1>
+            </div>
+            <div class="message_area"></div>
+            <div>
+                <textarea id="textarea" cols="30" rows="1" placeholder="Write your message"></textarea>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <h1 class="about-head">Features</h1>
+        <div class="content">
+            <div class="card">
+                <div class="box">
+                    <i class="fa-brands fa-osi"></i>
+                    <h3>Open source</h3>
+                    <p> Wassup has an open API and source code free for everyone..</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                    <h3>Secure</h3>
+                    <p>Wassup keeps your messages safe from hacker attacks.
+                        .</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <h3>Easy to use</h3>
+                    <p>Wassup is so simple you already know how to use it.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-solid fa-comments"></i>
+                    <h3>Realtime communication</h3>
+                    <p>Wassup delivers messages fast between two users.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="opensource">
+        <!-- <h1 class="open-head"></h1> -->
+        <h4 class="head-open">Why You Should Contribute To&nbsp<span class="open-span">Open-Source</span></h4>
+        <div class="open-content">
+
+            <div class="left">
+                <img class=" typing" src="/Typing-cuate.png">
+
+            </div>
+            <div class="right">
+                <ul class="ul-list">
+                    <p>
+                        <li class="list">To improve the software you rely on daily.</li>
+                    </p>
+                    <p>
+                        <li class="list">To learn new skills or improve on existing ones.</li>
+                    </p>
+                    <p>
+                        <li class="list">To build up your reputation and help grow your career.</li>
+                    </p>
+                    <p>
+                        <li class="list">To share your skills.</li>
+                    </p>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="btn-git">
+        <a href="https://github.com/shivam550/Toy---chat--appgir">
+            <button class="open-git">Contribute to Your First OpenSource Project
+
+                <i class="fa-brands fa-github fa"></i>
+            </button>
+        </a>
+        <p>Building Opensource Community </p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <a class="social" href="https://github.com/shivam550"><i class="fa-brands fa-github fa"></i></a>
+                <a class="social" href="https://twitter.com/ThakurShivam516"><i class="fa-brands fa-twitter fa"></i></a>
+                <a class="social" href="mailto: shivamsingh51609@gmail.com"><i class="fa-solid fa-envelope fa"></i></a>
+            </div>
+            <p class="last-line">Made with &#128151 by Shivam </p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <script src="https://kit.fontawesome.com/f66798b484.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
