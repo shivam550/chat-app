@@ -1,3 +1,9 @@
+<h5>How to run these project in your local system </h5>
+1.just download to zip file and extract the chat-app folder.<br>
+2.Open folder in vs code and start terminal<br>
+3. write in terminal npm start<br>
+4. check your project localhost:4500<br>
+
 # chat-app
 1 Fork the main repository
 
